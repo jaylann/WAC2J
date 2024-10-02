@@ -11,7 +11,7 @@ setup(
         "pydantic==2.9.2",
         "python-dotenv==1.0.1",
         "ratelimit==2.2.1",
-        "setuptools==65.5.0",
+        "setuptools==70.0.0",
         "tabulate==0.9.0",
         "tqdm==4.66.4"
 
