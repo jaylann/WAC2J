@@ -31,22 +31,7 @@ various utilities such as text cleaning, message moderation, and chat processing
     cd <repository-directory>
     ```
 
-2. Install the dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up environment variables:
-
-    - Create a `.env` file in the root directory.
-    - Add your OpenAI API key to the `.env` file:
-
-    ```env
-    OPENAI_API_KEY=your_openai_api_key
-    ```
-
-4. Install the package locally:
+2Install the package locally:
 
     ```bash
     pip install .
@@ -59,7 +44,7 @@ various utilities such as text cleaning, message moderation, and chat processing
 To run the chat processor, use the following command:
 
 ```bash
-chat_processor --sys-prompt "Your system prompt here" --name "AssistantName" input.txt
+wac2j --sys-prompt "Your system prompt here" --name "AssistantName" input.txt
 ```
 
 ### Options
@@ -81,13 +66,13 @@ chat_processor --sys-prompt "Your system prompt here" --name "AssistantName" inp
 To process a single chat export file:
 
 ```bash
-chat_processor --sys-prompt "Your system prompt" --name "Assistant" --threshold 0.8 --output output.jsonl input.txt
+wac2j --sys-prompt "Your system prompt" --name "Assistant" --threshold 0.8 --output output.jsonl input.txt
 ```
 
 To process all `.txt` files in a directory and merge them into a single JSONL file:
 
 ```bash
-chat_processor --sys-prompt "Your system prompt" --name "Assistant" --dir /path/to/chats --merge
+wac2j --sys-prompt "Your system prompt" --name "Assistant" --dir /path/to/chats --merge
 ```
 
 ## Extending the Project

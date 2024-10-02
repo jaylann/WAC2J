@@ -1,11 +1,8 @@
 # chat_processor/cli.py
 import argparse
 import os
-from dotenv import load_dotenv
 
 def parse_arguments():
-    load_dotenv(".env")
-
     parser = argparse.ArgumentParser(description="Process chat messages and format them into conversations.")
     parser.add_argument("-s", "--sys-prompt", required=True, help="System prompt to use")
     parser.add_argument("-t", "--threshold", type=float, default=0.7, help="Threshold for moderation (default: 0.7)")
