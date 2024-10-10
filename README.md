@@ -27,8 +27,8 @@ various utilities such as text cleaning, message moderation, and chat processing
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone [<repository-url>](https://github.com/jaylann/WAC2J.git)
+    cd WAC2J
     ```
 
 2Install the package locally:
