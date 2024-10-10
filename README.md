@@ -27,7 +27,7 @@ various utilities such as text cleaning, message moderation, and chat processing
 1. Clone the repository:
 
     ```bash
-    git clone [<repository-url>](https://github.com/jaylann/WAC2J.git)
+    git clone https://github.com/jaylann/WAC2J.git
     cd WAC2J
     ```
 
