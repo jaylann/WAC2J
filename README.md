@@ -31,7 +31,7 @@ various utilities such as text cleaning, message moderation, and chat processing
     cd WAC2J
     ```
 
-2Install the package locally:
+2. Install the package locally:
 
     ```bash
     pip install .
